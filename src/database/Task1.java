@@ -69,9 +69,9 @@ public class Task1 {
             String yearOfRelease = resultSet.getString("yearOfRelease");
 
 
-            String output = "movie #%d:  %s - %s - %s #####";
+            String output = "movie #%d:  %s - %s - %s #####$$$$$$$$$$$$$$$$$$$$$$$$$$$$$";
             System.out.printf((output) + "%n", row++, title, genre, yearOfRelease);
-
+            // comment for git
 
         }
 
